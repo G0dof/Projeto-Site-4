@@ -1,0 +1,193 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/* Menu de navegação */
+
+.menu {
+    margin: 0 6.25em;
+    overflow: auto;
+}
+
+.logo {
+    float: left;
+    margin-top: 0.9em;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 1.5em 0.9em 0 0.9em;
+}
+
+
+/* Links - Cabeçalho */
+
+.menu a {
+    box-shadow: none;
+    display: block;
+    color: #652e78;
+    transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+    border-bottom: solid 0px transparent;
+}
+
+.menu li a:hover {
+    transform: scale(1.2);
+    border-bottom: solid 1px #652e78;
+}
+
+
+/* Cabeçalho */
+
+.hero-banner {
+    position: relative;
+    background-image: url(../images/bg_topo_1600x1374.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 50em;
+}
+
+.hero-header .icon {
+    font-size: 7em;
+}
+
+.hero-header {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-header h1,
+.hero-header p {
+    font-weight: bold;
+}
+
+
+/* Botões */
+
+.btn-default {
+    box-shadow: transparent;
+    display: inline-block;
+    border-bottom: solid 0px transparent;
+    background-color: #58C4C4;
+    color: #fff;
+    padding: 0.9em 2.5em;
+    border-radius: 0.3em;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-default:hover {
+    transform: scale(1.1);
+}
+
+
+/* Conteúdo Principal */
+
+.main-content {
+    margin: 3.12em 6em 0;
+}
+
+.main-content .icon {
+    font-size: 3.75em;
+    color: #652e78;
+}
+
+.main-content h1 {
+    color: #652E78;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.main-content-section {
+    margin-bottom: 3.12em;
+}
+
+.main-content-section .row .col-3 h1 {
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.main-content-section:not(:first-child) h1 {
+    font-weight: normal;
+    letter-spacing: 0.31em;
+}
+
+
+/* Colunas */
+
+.row {
+    overflow: auto;
+}
+
+.row .col-3 {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 0.62em;
+    text-align: center;
+}
+
+.row .col-6 {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 0.62em;
+}
+
+
+/* Rodapé */
+
+.footer {
+    background-color: #25303E;
+    height: max-content;
+    text-align: center;
+}
+
+.footer p {
+    color: #6b7988;
+    margin: 0;
+    padding: 0 0.9em 1.5em 0.9em;
+}
+
+.copyright {
+    display: inline-block;
+    margin-bottom: 0.9em;
+}
+
+.footer ul {
+    background-color: #303D4C;
+    padding: 0;
+}
+
+.footer li {
+    display: inline-block;
+    list-style: none;
+    padding: 0.31em 0.9em;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 1.25em;
+}
+
+
+/* Opcionais */
+
+.scroll-top {
+    position: fixed;
+    bottom: 3.12em;
+    right: 1.25em;
+}
+
+.scroll-top a {
+    background-color: #fff;
+    border-radius: 100%;
+    display: block;
+}
